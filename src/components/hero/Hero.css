@@ -53,7 +53,8 @@
 .Hero-wrapper .profle-info h1 {
     margin: 0 0;
     line-height: 58px;
-    color: transparent;
+    color: black;
+    -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.1px hsl(356, 88%, 49%);
     background: url('../../assets/back.png');
     -webkit-background-clip: text;
