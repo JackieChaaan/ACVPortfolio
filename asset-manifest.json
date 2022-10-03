@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ACVPortfolio/static/css/main.8319af18.css",
+    "main.css": "/ACVPortfolio/static/css/main.b8f23198.css",
     "main.js": "/ACVPortfolio/static/js/main.c723f67c.js",
     "static/js/787.f0883273.chunk.js": "/ACVPortfolio/static/js/787.f0883273.chunk.js",
     "static/media/profilepic.png": "/ACVPortfolio/static/media/profilepic.a26340f7228655b38dcb.png",
     "static/media/Abelcv Resume.pdf": "/ACVPortfolio/static/media/Abelcv Resume.0e3e0c883461f76b59c2.pdf",
     "index.html": "/ACVPortfolio/index.html",
-    "main.8319af18.css.map": "/ACVPortfolio/static/css/main.8319af18.css.map",
+    "main.b8f23198.css.map": "/ACVPortfolio/static/css/main.b8f23198.css.map",
     "main.c723f67c.js.map": "/ACVPortfolio/static/js/main.c723f67c.js.map",
     "787.f0883273.chunk.js.map": "/ACVPortfolio/static/js/787.f0883273.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8319af18.css",
+    "static/css/main.b8f23198.css",
     "static/js/main.c723f67c.js"
   ]
 }
