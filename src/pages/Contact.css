@@ -1,0 +1,162 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+}
+
+.contact .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0rem;
+}
+
+.contact .contact-wrapper .contact-head {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+.contact .contact-wrapper .contact-head h1 {
+    -webkit-text-stroke: 1px #16a8a8;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+.contact .contact-wrapper .contact-body {
+    max-width: 578px;
+    text-align: center;
+    padding: 0.5rem 0rem;
+}
+
+.contact .contact-wrapper .contact-body p {
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-style: italic;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.contact .contact-wrapper .contact-mail {
+    padding: 0.5rem 0rem;
+}
+
+.contact .contact-wrapper .contact-mail button {
+    outline: 1px solid #16a8a8;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contact .contact-wrapper .contact-mail button:hover {
+    outline: 1px solid hsl(356, 88%, 49%);
+    transition: all 0.2s linear;
+}
+
+.contact .contact-wrapper .contact-mail button a {
+    text-decoration: none;
+    color: #16a8a8;
+}
+
+.contact .contact-wrapper .contact-mail button:hover a {
+    color: hsl(356, 88%, 49%);
+    transition: all 0.2s linear;
+}
+
+/* Responsive design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact {
+        height: 100vh;
+    }
+    .contact .contact-wrapper {
+        padding: 1rem 0rem 5rem 0rem;
+    }
+    .contact .contact-wrapper .contact-head h1 {
+        font-size: 40px;
+    }
+    .contact .contact-wrapper .contact-body p {
+        line-height: 21px;
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contact {
+        height: 100vh;
+    }
+    .contact .contact-wrapper {
+        padding: 1rem 0rem 5rem 0rem;
+    }
+    .contact .contact-wrapper .contact-head h1 {
+        font-size: 40px;
+    }
+    .contact .contact-wrapper .contact-body p {
+        letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 16px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact {
+        height: 100vh;
+    }
+    .contact .contact-wrapper .contact-head h1 {
+        font-size: 50px;
+    }
+    .contact .contact-wrapper {
+        padding: 1rem 0rem 5rem 0rem;
+    }
+    .contact .contact-wrapper .contact-body p {
+        letter-spacing: 1px;
+    line-height: 26px;
+    font-size: 16px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .contact {
+        height: 100vh;
+    }
+    .contact .contact-wrapper .contact-head h1 {
+        font-size: 50px;
+    }
+   
+    .contact .contact-wrapper {
+        padding: 2rem 0rem 5rem 0rem;
+    }
+    .contact .contact-wrapper .contact-body p {
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .contact {
+        height: 100vh;
+    }
+
+    .contact .contact-wrapper .contact-head h1 {
+        font-size: 50px;
+    }
+    
+    .contact .contact-wrapper {
+        padding: 5rem 0rem;
+    }
+    .contact .contact-wrapper .contact-body p {
+        letter-spacing: 2px;
+        line-height: 30px;
+        font-size: 18px;
+    }
+}

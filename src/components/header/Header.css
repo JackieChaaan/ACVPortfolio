@@ -1,0 +1,117 @@
+.header-wrapper {
+    padding: 2rem 0rem;
+    position: relative;
+}
+
+.header-wrapper .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-wrapper .header .logo-section h1,.header-wrapper .header .logo-section h1 a {
+    color: #16a8a8;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 37px;
+}
+
+.header-wrapper .header .logo-section h1 a:hover {
+    /* color: rgb(255, 0, 0); */
+    color: hsl(356, 88%, 49%);
+    cursor: pointer;
+}
+
+.header-wrapper .header .hamburger {
+    display: none;
+    color: #16a8a8;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.header-wrapper .header .hamburger:hover,
+.header-wrapper .header .hamburger:focus {
+    color: hsl(356, 88%, 49%);
+
+}
+
+
+
+
+/* Responsive Design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-wrapper .header .nav-link-section {
+        display: none;
+    }
+
+    .header-wrapper .header .hamburger {
+        display: block;
+    }
+    .header-wrapper .header .logo-section h1,.header-wrapper .header .logo-section h1 a {
+        font-size: 28px !important;
+        letter-spacing: -1px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header-wrapper .header .nav-link-section {
+        display: none;
+    }
+
+    .header-wrapper .header .hamburger {
+        display: block;
+    }
+    .header-wrapper .header .logo-section h1,.header-wrapper .header .logo-section h1 a {
+        font-size: 28px !important;
+        letter-spacing: -1px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header-wrapper .header .nav-link-section {
+        display: none;
+    }
+
+    .header-wrapper .header .hamburger {
+        display: block;
+    }
+    .header-wrapper .header .logo-section h1,.header-wrapper .header .logo-section h1 a {
+        font-size: 30px !important;
+        letter-spacing: -1px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .header-wrapper .header .nav-link-section {
+        display: block;
+    }
+
+    .header-wrapper .header .hamburger {
+        display: none;
+    }
+
+    .header-wrapper .header .logo-section h1,.header-wrapper .header .logo-section h1 a {
+        font-size: 32px !important;
+        letter-spacing: 1px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+    .header-wrapper .header .nav-link-section {
+        display: block;
+    }
+
+    .header-wrapper .header .hamburger {
+        display: none;
+    }
+
+    .header-wrapper .header .logo-section h1,.header-wrapper .header .logo-section h1 a {
+        font-size: 37px !important;
+        letter-spacing: 2px;
+    }
+}

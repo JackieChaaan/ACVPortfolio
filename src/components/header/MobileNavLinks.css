@@ -1,0 +1,56 @@
+.mobileNav{
+    /* display: none; */
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background: #000000c7;
+    height: 100vh;
+    width: 60%;
+    padding: 5rem 0rem;
+    z-index: 4;
+    text-align: center;
+}
+.mobileNav .close{
+    background: black;
+    position: absolute;
+    color: #16a8a8;
+    top: 34px;
+    right: 12px;
+    cursor: pointer;
+}
+.mobileNav .close:hover,.mobileNav .close:focus{
+    color: hsl(356, 88%, 49%);
+}
+.mobileNav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+.mobileNav ul li,ul li a{
+    margin: 5px 0px;
+    cursor: pointer;
+    color: #16a8a8;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+    font-weight: 500;
+}
+.mobileNav ul li a:hover{
+    color :hsl(356, 88%, 49%);
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mobileNav{
+        display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+    .mobileNav{
+        display: none;
+    }
+}

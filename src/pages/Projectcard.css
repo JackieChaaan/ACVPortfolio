@@ -1,0 +1,106 @@
+.cardprojects {
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.cardprojects .card {
+    border-radius: 15px;
+    background: #ffffff0f;
+    color: white;
+}
+
+.cardprojects .card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cardprojects .card-body h3 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: hsl(356, 88%, 49%);
+    font-style: italic;
+    margin: 12px 0px;
+    word-spacing: -10px;
+    letter-spacing: 0.5px;
+}
+
+.cardprojects .card-body h5 {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #16a8a8;
+    font-style: italic;
+    margin-bottom: 12px;
+    word-spacing: -10px;
+    letter-spacing: 0.5px;
+}
+
+.cardprojects .card-body .card-text {
+    font-family: 'IBM Plex Mono', monospace;
+    color: white;
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.cardprojects .card-body .btn {
+    margin: auto;
+    background: transparent;
+    outline: 1px solid #16a8a8;
+}
+
+.cardprojects .card-body .btn a {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #16a8a8;
+    text-decoration: none;
+}
+
+.cardprojects .card-body .btn:hover {
+    outline: 1px solid hsl(356, 88%, 49%);
+}
+
+.cardprojects .card-body .btn:hover a {
+    color: hsl(356, 88%, 49%);
+}
+
+.cardprojects:hover {
+    outline: 2px solid #16a8a8;
+}
+
+.cardprojects .card-image {
+
+    overflow: hidden;
+}
+
+.cardprojects:hover .card-img-top {
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+}
+
+.cardprojects .card-img-top {
+    border-radius: 15px;
+}
+
+
+/* Responsive Design */
+/* Extra small devices (phones, 600px and down) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .cardprojects .card{
+        width: 20rem !important;
+    } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .cardprojects .card{
+        width: 18rem !important;
+    } 
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .cardprojects .card{
+        width: 26rem !important;
+    } 
+}

@@ -1,0 +1,125 @@
+.portfoliopage {
+    padding: 3rem 0rem;
+}
+
+.portfoliopage .project-head {
+    padding-bottom: 30px;
+}
+
+.portfoliopage .project-head h2 {
+    color: hsl(356, 88%, 49%);
+}
+
+.portfoliopage .project-head h2::after {
+    top: -17px;
+    margin-left: 230px;
+    content: "";
+    max-width: 973px;
+    height: 1px;
+    background: hsl(356, 88%, 49%);
+    position: relative;
+    display: block;
+}
+
+.portfoliopage .projects-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+/* Responsive Design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .portfoliopage {
+        padding: 2rem 0rem 3rem 0rem;
+    }
+
+    .portfoliopage .project-head h2 {
+        font-size: 20px;
+    }
+
+    .portfoliopage .project-head h2::after {
+        top: -13px;
+        margin-left: 145px;
+    }
+    .portfoliopage .projects-details{
+        justify-content: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .portfoliopage {
+        padding: 1rem 0rem 3rem 0rem;
+    }
+    .portfoliopage .projects-details{
+        justify-content: center;
+    }
+
+    .portfoliopage .project-head h2 {
+        font-size: 22px;
+    }
+
+    .portfoliopage .project-head h2::after {
+        top: -14px;
+        margin-left: 162px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .portfoliopage {
+        padding: 2rem 0rem 3rem 0rem;
+    }
+
+    .portfoliopage .project-head h2 {
+        font-size: 24px;
+    }
+
+    .portfoliopage .project-head h2::after {
+        top: -14px;
+        margin-left: 175px;
+    }
+    .portfoliopage .projects-details{
+        justify-content: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .portfoliopage {
+        padding: 1rem 0rem 3rem 0rem
+    }
+
+    .portfoliopage .project-head h2 {
+        font-size: 26px;
+        top: -14px;
+    }
+
+    .portfoliopage .project-head h2::after {
+        top: -14px;
+        margin-left: 175px;
+    }
+    .portfoliopage .projects-details{
+        justify-content: left;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .portfoliopage {
+        padding: 3rem 0rem;
+    }
+
+    .portfoliopage .project-head h2 {
+        font-size: 32px;
+    }
+
+    .portfoliopage .project-head h2::after {
+        top: -17px;
+        margin-left: 230px;
+    }
+    .portfoliopage .projects-details{
+        justify-content: left;
+    }
+}

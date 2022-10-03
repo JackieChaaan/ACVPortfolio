@@ -1,0 +1,270 @@
+.about_me {
+    padding: 3rem 0rem;
+    width: 100%;
+    height: 83vh;
+}
+
+.about_me .head h2 {
+    color: hsl(356, 88%, 49%);
+}
+
+.about_me .head h2::after {
+    top: -15px;
+    margin-left: 184px;
+    content: "";
+    max-width: 1000px;
+    height: 1px;
+    background: hsl(356, 88%, 49%);
+    position: relative;
+    display: block;
+}
+
+.about_me .about-content .left-wrapper {
+    padding: 36px 0px;
+    position: relative;
+}
+
+.about_me .about-content .left-wrapper::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 340px;
+    background: hsl(356, 88%, 49%);
+    position: absolute;
+    top: 38px;
+    right: 0;
+}
+
+.about_me .about-content .left-wrapper p {
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: italic;
+}
+
+.about_me .about-content .left-wrapper .more-info {
+    border: none;
+    outline: none;
+    background: #16a8a8;
+    padding: 10px 60px;
+    border-radius: 2px;
+    transition: all 0.2s linear;
+    margin-top: 20px;
+    position: relative;
+}
+
+.about_me .about-content .left-wrapper .more-info:hover {
+    border: 1px solid #16a8a8;
+    background: transparent;
+
+}
+
+.about_me .about-content .left-wrapper .more-info a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.about_me .about-content .left-wrapper .more-info:hover a {
+    color: transparent;
+}
+
+.about_me .about-content .left-wrapper .more-info:hover a::after {
+    content: 'Download CV';
+    position: absolute;
+    color: #16a8a8;
+    left: 36px;
+    letter-spacing: 1px;
+}
+
+.about_me .about-content .right-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about_me .about-content .right-wrapper img {
+    width: 472px;
+    height: 365px;
+    margin-left: -61px;
+}
+
+
+/* Responsive Design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .about_me {
+        height: 100%;
+        padding: 2rem 0rem 3rem 0rem
+    }
+
+    .about_me .head h2 {
+        font-size: 20px;
+    }
+
+    .about_me .head h2::after {
+        top: -12px;
+        margin-left: 117px;
+    }
+
+    .about_me .about-content .left-wrapper {
+        padding: 26px 0px 36px 0;
+        text-align: center;
+    }
+
+    .about_me .about-content .left-wrapper p {
+        font-size: 14px;
+    }
+
+    .about_me .about-content .left-wrapper::after {
+        display: none;
+    }
+    .about_me .about-content .left-wrapper .more-info a{
+        font-size: 18px;
+    }
+    .about_me .about-content .right-wrapper img {
+        margin-left: 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about_me {
+        height: 100%;
+        padding: 1rem 0rem 3rem 0rem
+    }
+
+    .about_me .head h2 {
+        font-size: 22px;
+    }
+
+    .about_me .head h2::after {
+        top: -15px;
+        margin-left: 128px;
+    }
+
+    .about_me .about-content .left-wrapper {
+        padding: 26px 0px 36px 0;
+        text-align: center;
+    }
+
+    .about_me .about-content .left-wrapper p {
+        font-size: 14px; 
+    }
+    .about_me .about-content .left-wrapper::after {
+        display: none;
+    }
+    .about_me .about-content .left-wrapper .more-info a{
+        font-size: 18px;
+    }
+    .about_me .about-content .right-wrapper img {
+        margin-left: 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about_me {
+        height: 100%;
+        padding: 2rem 0rem 3rem 0rem
+    }
+
+    .about_me .head h2 {
+        font-size: 24px;
+    }
+
+    .about_me .head h2::after {
+        top: -15px;
+        margin-left: 150px;
+    }
+
+    .about_me .about-content .left-wrapper {
+        padding: 30px 0px 36px 0;
+        text-align: left;
+    }
+
+    .about_me .about-content .left-wrapper p {
+        font-size: 14px;
+    }
+    .about_me .about-content .left-wrapper::after {
+        display: block;
+    }
+    .about_me .about-content .left-wrapper .more-info a{
+        font-size: 18px;
+    }
+    .about_me .about-content .right-wrapper img {
+        margin-left: 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .about_me {
+        height: 100%;
+        padding: 1rem 0rem 2rem 0rem
+    }
+
+    .about_me .head h2 {
+        font-size: 26px;
+    }
+
+    .about_me .head h2::after {
+        top: -15px;
+        margin-left: 160px;
+    }
+
+    .about_me .about-content .left-wrapper {
+        padding: 32px 0px 36px 0;
+        text-align: left;
+    }
+
+    .about_me .about-content .left-wrapper p {
+        font-size: 16px;    
+    }
+    .about_me .about-content .left-wrapper::after {
+        display: block;
+    }
+    .about_me .about-content .left-wrapper .more-info a{
+        font-size: 18px;
+    }
+    .about_me .about-content .right-wrapper img {
+        margin-left: 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .about_me {
+        height: 100vh;
+        padding: 3rem 0rem
+    }
+
+    .about_me .head h2 {
+        font-size: 32px;
+    }
+
+    .about_me .head h2::after {
+        top: -15px;
+        margin-left: 184px;
+    }
+
+    .about_me .about-content .left-wrapper {
+        padding: 36px 0px;
+        text-align: left;
+    }
+
+    .about_me .about-content .left-wrapper p {
+        font-size: 18px;
+    }
+    .about_me .about-content .left-wrapper::after {
+        display: block;
+    }
+    .about_me .about-content .left-wrapper .more-info a{
+        font-size: 20px;
+    }
+    .about_me .about-content .right-wrapper img {
+        margin-left: -61px;
+    }
+}

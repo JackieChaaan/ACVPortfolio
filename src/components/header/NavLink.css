@@ -1,0 +1,36 @@
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+ul li,ul li a{
+    margin: 0px 10px;
+    cursor: pointer;
+    color: #16a8a8;
+    text-decoration: none;
+    letter-spacing: 1px;
+    z-index: 3;
+    font-family: 'Rye';
+    font-style: normal;
+}
+ul li a:hover{
+    color :hsl(356, 88%, 49%);
+}
+
+
+/* Responsive Design */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ul li a{
+        font-size: 14px;
+        margin: 0px 5px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+    ul li a{
+        font-size: 18px;
+        margin: 0px 10px
+    }
+}
