@@ -55,7 +55,7 @@
     line-height: 58px;
     color: black;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.5px hsl(356, 88%, 49%);
+    -webkit-text-stroke: 0.1px hsl(356, 88%, 49%);
     background: url('../../assets/back.png');
     -webkit-background-clip: text;
     background-clip: text;
@@ -80,7 +80,8 @@
     display: flex;
     align-items: center;
 }
-.Hero-wrapper .profile-pic .wrapper{
+
+.Hero-wrapper .profile-pic .wrapper {
     padding: 3rem 0rem;
     display: flex;
 }
@@ -115,6 +116,8 @@
     .Hero-wrapper .profle-info h2 {
         font-size: 22px;
         letter-spacing: -1px;
+        margin-top: -122px;
+
     }
 
     .Hero-wrapper .profle-info h1 {
@@ -128,9 +131,24 @@
         line-height: 1.5;
         margin: 21px 0px;
     }
-    .Hero-wrapper .profle-info h5{
+
+    .Hero-wrapper .profle-info h5 {
         font-size: 16px;
         margin: 0 auto;
+    }
+
+    .Hero-wrapper .profile-pic {
+        margin-top: -51px;
+    }
+
+    .Hero-wrapper .profile-pic .pic-wrapper {
+        height: 195px;
+    }
+
+    .Hero-wrapper .profile-pic .pic-wrapper img {
+        top: -150px;
+        left: -21px;
+        height: 390px;
     }
 }
 
@@ -154,7 +172,8 @@
         font-size: 23px;
         letter-spacing: 0.5px;
     }
-    .Hero-wrapper .profle-info h5{
+
+    .Hero-wrapper .profle-info h5 {
         font-size: 20px;
         margin: 0 auto;
     }
@@ -180,7 +199,8 @@
         font-size: 20px;
         letter-spacing: 1px;
     }
-    .Hero-wrapper .profle-info h5{
+
+    .Hero-wrapper .profle-info h5 {
         font-size: 20px;
         margin: 0 0;
     }
@@ -206,7 +226,8 @@
         font-size: 20px;
         letter-spacing: 1px;
     }
-    .Hero-wrapper .profle-info h5{
+
+    .Hero-wrapper .profle-info h5 {
         font-size: 22px;
         margin: 0 0;
     }
@@ -232,7 +253,8 @@
         font-size: 23px;
         letter-spacing: 1px;
     }
-    .Hero-wrapper .profle-info h5{
+
+    .Hero-wrapper .profle-info h5 {
         font-size: 25px;
     }
 }
