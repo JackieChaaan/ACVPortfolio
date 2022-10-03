@@ -55,7 +55,7 @@
     line-height: 58px;
     color: black;
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.1px hsl(356, 88%, 49%);
+    -webkit-text-stroke: 0.5px hsl(356, 88%, 49%);
     background: url('../../assets/back.png');
     -webkit-background-clip: text;
     background-clip: text;
