@@ -23,11 +23,11 @@ function Portfolio() {
                     <Routes>
                         <Route exact path='/ACVPortfolio' element={
                             <Hero />} />
-                        <Route path='/about' element={
+                        <Route path='/ACVPortfolio/about' element={
                             <About />} />
-                        <Route path='/contact' element={
+                        <Route path='/ACVPortfolio/contact' element={
                             <Contact />} />
-                        <Route path='/portfoliopage' element={
+                        <Route path='/ACVPortfolio/portfoliopage' element={
                             <Portfoliopage />} />
                     </Routes>
                 </Router>
