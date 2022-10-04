@@ -18,7 +18,7 @@ function Header() {
       <div className="container">
         <div className="header">
           <div className="logo-section">
-            <h1><Link to='/ACVPortfolio'>A C V</Link></h1>
+            <h1><Link to='/'>A C V</Link></h1>
           </div>
           <div className="nav-link-section">
             <NavLink />

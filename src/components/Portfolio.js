@@ -18,7 +18,7 @@ function Portfolio() {
     return (
         <div className='main-wrapper'>
             <div className="wrapper">
-                <Router basename='/ACVPortfolio'>
+                <Router>
                     <Header />
                     <Routes>
                         <Route exact path='/' element={
