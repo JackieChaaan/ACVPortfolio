@@ -18,16 +18,16 @@ function Portfolio() {
     return (
         <div className='main-wrapper'>
             <div className="wrapper">
-                <Router>
+                <Router basename='/ACVPortfolio'>
                     <Header />
                     <Routes>
-                        <Route exact path='/ACVPortfolio' element={
+                        <Route exact path='/' element={
                             <Hero />} />
-                        <Route path='/ACVPortfolio/about' element={
+                        <Route exact path='/about' element={
                             <About />} />
-                        <Route path='/ACVPortfolio/contact' element={
+                        <Route exact path='/contact' element={
                             <Contact />} />
-                        <Route path='/ACVPortfolio/portfoliopage' element={
+                        <Route exact path='/portfoliopage' element={
                             <Portfoliopage />} />
                     </Routes>
                 </Router>
