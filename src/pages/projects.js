@@ -39,4 +39,12 @@ export const projectsdata =[ {
     "projectimg" : "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/o4iyywkwjc31epcmsmyo.jpg",
     "projectDescription" : "This page is helped me to learn responsive skills and Grid layout Skills",
     "link" : "https://jackiechaaan.github.io/EasyBank-Landing-Page/",
+},
+{
+    "projectID" : 6,
+    "projectName" : "Portfolio Website",
+    "tags" : "React JS,HTML ,CSS ,Bootstrap",
+    "projectimg" : require( "../assets/portfolio.png"),
+    "projectDescription" : "Portfolio Website to showcase my design projects and development as well. This project is also a practice project for enhancing my knowledge in React JS and other frontend technologies",
+    "link" : "https://jackiechaaan.github.io/ACVPortfolio/",
 }]
