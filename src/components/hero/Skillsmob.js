@@ -10,7 +10,13 @@ function Skillsmob() {
         'React JS',
         'HTML 5',
         'CSS 3',
-        'Bootstrap etc..'
+        'JavaScript',
+        'Bootstrap 5',
+        'Responsive Design',
+        'Python',
+        'Java',
+        'MySql',
+        'Rest API etc..'
       ]}
       duration="1000ms"
       delay="0s"
@@ -18,7 +24,6 @@ function Skillsmob() {
       timing="ease"
       iteration="infinite"
       fillMode="none">
-      Content, html, js...
     </MovingText>
     )
 

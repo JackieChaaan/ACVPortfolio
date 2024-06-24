@@ -1,7 +1,6 @@
-import React from 'react'
-import './Hero.css'
-import profilepic from '../../assets/profilepic.png'
-import Skillsmob from './Skillsmob'
+import React from 'react';
+import './Hero.css';
+import Skillsmob from './Skillsmob';
 
 
 function Hero() {
@@ -21,13 +20,12 @@ function Hero() {
                     </div>
                     <div className="col-12 col-sm-12 col-md-5">
                         <div className="profile-pic">
-                        <div className="container-fluid">
-                            <div className="wrapper">
-                            <div className="pic-wrapper">
-                                <img src={profilepic} alt="profilepic" className='img-fluid'/>
+                            <div className="container-fluid">
+                                <div className="wrapper">
+                                    <div className="pic-wrapper">
+                                    </div>
+                                </div>
                             </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>

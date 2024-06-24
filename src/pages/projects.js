@@ -12,7 +12,7 @@ export const projectsdata =[ {
     "projectID" : 2,
     "projectName" : "E-commerce product page",
     "tags" : "HTML ,CSS ,JS ,Bootstrap",
-    "projectimg" : "https://res.cloudinary.com/dz209s6jk/image/upload/q_auto,w_700/Challenges/fhzpdnabrek50hvhftnl.jpg",
+    "projectimg" : "https://res.cloudinary.com/dz209s6jk/image/upload/f_auto,q_auto,w_700/Challenges/xde5z4efoocyw2mcuqod.jpg",
     "projectDescription" : "This page is beautiful product page and helped me to learn responsive skills and JS skills to the test with lightbox product gallary and cart functionality.",
     "link" : "https://jackiechaaan.github.io/Sneakers/",
 },

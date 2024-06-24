@@ -81,30 +81,32 @@
     align-items: center;
 }
 
+
 .Hero-wrapper .profile-pic .wrapper {
     padding: 3rem 0rem;
     display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 .Hero-wrapper .profile-pic .pic-wrapper {
     width: 505px;
-    height: 288px;
-    border: 20px solid hsl(356, 88%, 49%);
-    outline: 4px solid white;
-    border-radius: 50%;
-    transform: rotate3d(1, 1, 1, 328deg) skew(322deg, 9deg);
-    position: relative;
+    height: 505px;
+    background: url('../../assets/profilepicnew2_img.jpg') no-repeat center/cover;
+    animation: profile_anim 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    box-shadow: 0 5px 20px 5px rgb(235 15 30);
 }
 
-.Hero-wrapper .profile-pic .pic-wrapper img {
-    top: -165px;
-    left: -6px;
-    position: absolute;
-    width: 408px;
-    height: 529px;
-    transform: rotate3d(1, 1, 1, 8deg) skew(25deg, 2deg);
-    z-index: 2;
+@keyframes profile_anim {
+    0%,100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
 }
+
 
 /* Responsive Design */
 /* Extra small devices (phones, 600px and down) */
@@ -138,17 +140,11 @@
     }
 
     .Hero-wrapper .profile-pic {
-        margin-top: -51px;
+        margin-top: -120px;
     }
 
     .Hero-wrapper .profile-pic .pic-wrapper {
-        height: 195px;
-    }
-
-    .Hero-wrapper .profile-pic .pic-wrapper img {
-        top: -150px;
-        left: -21px;
-        height: 390px;
+        height: 377px;
     }
 }
 
@@ -177,6 +173,9 @@
         font-size: 20px;
         margin: 0 auto;
     }
+    .Hero-wrapper .profile-pic .pic-wrapper {
+        height: 492px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -203,6 +202,9 @@
     .Hero-wrapper .profle-info h5 {
         font-size: 20px;
         margin: 0 0;
+    }
+    .Hero-wrapper .profile-pic .pic-wrapper {
+        height: 252px;
     }
 }
 
@@ -231,6 +233,9 @@
         font-size: 22px;
         margin: 0 0;
     }
+    .Hero-wrapper .profile-pic .pic-wrapper {
+        height: 352px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1400px and up) */
@@ -256,5 +261,8 @@
 
     .Hero-wrapper .profle-info h5 {
         font-size: 25px;
+    }
+    .Hero-wrapper .profile-pic .pic-wrapper {
+        height: 505px;
     }
 }
