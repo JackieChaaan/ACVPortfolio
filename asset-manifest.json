@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ACVPortfolio/static/css/main.6ef60436.css",
-    "main.js": "/ACVPortfolio/static/js/main.bd357daa.js",
+    "main.css": "/ACVPortfolio/static/css/main.bf7a53a1.css",
+    "main.js": "/ACVPortfolio/static/js/main.356fd427.js",
     "static/js/787.f0883273.chunk.js": "/ACVPortfolio/static/js/787.f0883273.chunk.js",
-    "static/media/profilepic.png": "/ACVPortfolio/static/media/profilepic.a26340f7228655b38dcb.png",
-    "static/media/Abelcv Resume.pdf": "/ACVPortfolio/static/media/Abelcv Resume.f87e7ccd73d35622a243.pdf",
-    "static/media/portfolio.png": "/ACVPortfolio/static/media/portfolio.06f826129c4430189ab2.png",
+    "static/media/Abelcv Resume.pdf": "/ACVPortfolio/static/media/Abelcv Resume.346ca96a827687720984.pdf",
+    "static/media/about.jpg": "/ACVPortfolio/static/media/about.60e38853bb871dcf2522.jpg",
+    "static/media/profilepicnew2_img.jpg": "/ACVPortfolio/static/media/profilepicnew2_img.73dc28874f4d18929126.jpg",
+    "static/media/portfolio.png": "/ACVPortfolio/static/media/portfolio.e21624b661843f595cbf.png",
     "index.html": "/ACVPortfolio/index.html",
-    "main.6ef60436.css.map": "/ACVPortfolio/static/css/main.6ef60436.css.map",
-    "main.bd357daa.js.map": "/ACVPortfolio/static/js/main.bd357daa.js.map",
+    "main.bf7a53a1.css.map": "/ACVPortfolio/static/css/main.bf7a53a1.css.map",
+    "main.356fd427.js.map": "/ACVPortfolio/static/js/main.356fd427.js.map",
     "787.f0883273.chunk.js.map": "/ACVPortfolio/static/js/787.f0883273.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ef60436.css",
-    "static/js/main.bd357daa.js"
+    "static/css/main.bf7a53a1.css",
+    "static/js/main.356fd427.js"
   ]
 }
